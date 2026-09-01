@@ -8,7 +8,7 @@ I spend a lot of time thinking about how AI is changing the way we discover info
 
 I've been building Presscart, a high-trust media marketplace where elite publications and independent journalists generate revenue by selling paid media opportunities to unique individuals, quality brands, and performance marketing agencies.
 
-I'm also building Lectern, the offsite content engine for AI agents — providing brands, agencies, and AI visibility companies with effortless, programmatic offsite content via our media relationships.
+I'm also working on Lectern, the offsite content engine for AI agents — providing brands, agencies, and AI visibility companies with effortless, programmatic offsite content via our media relationships.
 
 ## Companies
 
