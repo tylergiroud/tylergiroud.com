@@ -55,11 +55,11 @@ The site began as probability.org, named for a core personal philosophy: nothing
 ## Deployment Status
 - Files created and ready
 - Git repo not yet initialized (blocked by Xcode license agreement — Tyler needs to run `sudo xcodebuild -license accept`)
-- DNS: tylergiroud.com must point to GitHub Pages (A records 185.199.108-111.153 for apex, or CNAME to tylergiroud.github.io). probability.org is reserved for a separate future project (simple "building something" placeholder).
+- DNS: tylergiroud.com must point to GitHub Pages (A records 185.199.108-111.153 for apex, or CNAME to tylergiroud.github.io). probability.org is reserved for a separate future project — currently a "We're working on building something" placeholder living in the tylergiroud/probability-org repo (local: ~/probability_org). DNS for both domains is set at GoDaddy (A records to GitHub Pages IPs 185.199.108-111.153, www CNAME to tylergiroud.github.io). HTTPS enforced on both.
 
 ## File Structure
 ```
-probability_site/
+tylergiroud.com/          (GitHub repo: tylergiroud/tylergiroud.com)
 ├── index.html
 ├── style.css
 ├── CNAME
