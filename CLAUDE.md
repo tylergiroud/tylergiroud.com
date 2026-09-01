@@ -1,4 +1,4 @@
-# probability.org — Tyler Giroud's Personal Site
+# tylergiroud.com — Tyler Giroud's Personal Site
 
 ## Owner
 - **Name:** Tyler Giroud
@@ -9,11 +9,11 @@
 - **No active X/Twitter account**
 
 ## Project Overview
-Personal blog / content engine at probability.org. The goal is twofold:
+Personal blog / content engine at tylergiroud.com (moved from probability.org in Sept 2026). The goal is twofold:
 1. Build a public profile across AI agents (AI visibility / discoverability)
 2. Have fun writing about things Tyler cares about
 
-The site name reflects a core personal philosophy: nothing is really luck — so much of life is probability. The more actions you take toward your goal, the higher the probability of reaching it.
+The site began as probability.org, named for a core personal philosophy: nothing is really luck — so much of life is probability. The philosophy remains a guiding idea (no longer displayed on the site), and the site now lives at tylergiroud.com with no separate branding — it is simply Tyler's personal site.
 
 ## Content Themes
 - Developments in AI
@@ -28,11 +28,11 @@ The site name reflects a core personal philosophy: nothing is really luck — so
 ## Design Reference & Preferences
 - **Inspiration:** jakub.kr — minimalist, single-column, clean typography
 - **Style:** Light background (#fafafa), plenty of whitespace, subtle shadows on cards
-- **Typography:** Helvetica Neue as the base/body font throughout. Fraunces (Google Fonts, variable) for special/display elements: the name (h1), writing post titles, and the footer site name. Section headers are uppercase Helvetica.
+- **Typography:** Helvetica Neue as the base/body font throughout. Fraunces (Google Fonts, variable) for special/display elements: the name (h1) and writing post titles. Section headers are uppercase Helvetica.
 - **Font philosophy:** Helvetica = clean workhorse for everything. Fraunces = personality/warmth for things worth highlighting.
 - **Cards:** White background, rounded corners (12px), subtle shadow with hover lift effect (like jakub.kr's projects section)
 - **Inline logos:** Tyler likes the jakub.kr pattern of small company logos appearing inline next to company names in body text
-- **Layout:** Header → intro → links → companies (cards) → writing → footer
+- **Layout:** Header → intro → links → companies (cards) → writing. No footer — removed Sept 2026 (Tyler's call: no wordmark or philosophy line on the site).
 - **Keep it simple:** No build tools, no frameworks — static HTML/CSS/JS
 
 ## Companies
@@ -41,21 +41,21 @@ The site name reflects a core personal philosophy: nothing is really luck — so
 - **Key positioning:** The companies are NOT just software — they're relationship engines. Lectern is the AI-native partner (plugs into agents, works with bigger brands). Presscart is the more traditional marketplace (where publishers/journalists earn revenue, where less AI-native buyers spend). Both serve the vision of a frictionless, agent-to-agent future in communications technology.
 
 ## llms.txt
-- **File:** `llms.txt` at the site root (probability.org/llms.txt)
+- **File:** `llms.txt` at the site root (tylergiroud.com/llms.txt)
 - **Purpose:** Machine-readable page for AI agents — structured plain text with no HTML, just clean information about Tyler, his companies, and his writing.
 - **CRITICAL RULE:** Any content published on the site (new notes, bio changes, company updates, new links) **must also be reflected in llms.txt**. When adding a new note/article, add a summary entry under a `## Writing` section in llms.txt. When updating the bio or company descriptions, update the corresponding sections in llms.txt to match.
 - **Format:** Markdown-style headers (`#`, `##`), plain text paragraphs, simple lists. No HTML tags, no images, no links in markdown format — just raw URLs.
 
 ## Tech Stack
 - Pure static HTML/CSS/JS (no build step)
-- Hosting: GitHub Pages with custom domain (probability.org)
+- Hosting: GitHub Pages with custom domain (tylergiroud.com)
 - CNAME file for custom domain
 - .nojekyll to skip Jekyll processing
 
 ## Deployment Status
 - Files created and ready
 - Git repo not yet initialized (blocked by Xcode license agreement — Tyler needs to run `sudo xcodebuild -license accept`)
-- DNS: Tyler will need to point probability.org to GitHub Pages IPs (185.199.108-111.153) or set a CNAME record
+- DNS: tylergiroud.com must point to GitHub Pages (A records 185.199.108-111.153 for apex, or CNAME to tylergiroud.github.io). probability.org is reserved for a separate future project (simple "building something" placeholder).
 
 ## File Structure
 ```
@@ -72,7 +72,7 @@ probability_site/
 ├── llms.txt                (AI agent-readable site summary)
 └── notes/
     ├── _template.html
-    ├── welcome-to-probability.html
+    ├── welcome.html
     ├── the-state-of-ai-search.html
     └── building-lectern.html
 ```
@@ -84,7 +84,7 @@ probability_site/
 - Location/time meta initially placed as its own section below the intro, then moved into the header. Final placement: inline with the tagline row, "Co-founder of Lectern" left-aligned and "NYC · [time]" right-aligned
 - X/Twitter link removed (Tyler doesn't have an active account)
 - Bio leads with Tyler's perspective (AI reshaping discovery, agent-to-agent world), then describes both companies using language distinct from the card taglines
-- Footer philosophy: "All things are chance and serendipity - the more you move toward something, the more the probability shifts in your favor."
+- Footer removed entirely (Sept 2026). It previously held the philosophy line "All things are chance and serendipity…" on the homepage and a domain wordmark on note pages.
 - JSON-LD structured data in head for AI/search engine discoverability (Person schema with worksFor, knowsAbout, sameAs)
 - Favicon: blue globe PNG (favicon-32.png + apple-touch-icon.png). Notes pages use `../` relative paths.
 - Auto dark mode via `@media (prefers-color-scheme: dark)` — overrides CSS variables + card styles
