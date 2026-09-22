@@ -2,7 +2,7 @@
 
 ## Owner
 - **Name:** Tyler Giroud
-- **Role:** Co-founder of Lectern, Partner at Presscart
+- **Role:** Partner at Presscart
 - **Location:** NYC
 - **Email:** tyler@presscart.com
 - **LinkedIn:** linkedin.com/in/tylergiroud
@@ -18,7 +18,6 @@ The site began as probability.org, named for a core personal philosophy: nothing
 ## Content Themes
 - Developments in AI
 - State of startups
-- What they're building at Lectern
 - Accomplishments and milestones
 - Anything else interesting
 
@@ -36,7 +35,9 @@ The site began as probability.org, named for a core personal philosophy: nothing
 - **Keep it simple:** No build tools, no frameworks — static HTML/CSS/JS
 
 ## Companies
-- **Lectern** — trylectern.com — The offsite content engine for AI visibility, built at the intersection of media relationships and AI agents. Helps brands, agencies, and platforms show up where AI is looking. Tyler is Co-founder. Logo: lectern-icon-dark.png (white starburst on dark background).
+> **Lectern is removed from the live site (Sept 22, 2026) — do not re-add it unless Tyler asks.** The pre-removal site is saved in git tag `lectern-archive` (local only) and in `~/tylergiroud-site-archive/lectern/` (index.html, llms.txt, notes/building-lectern.html, notes/the-state-of-ai-search.html with its Lectern line, lectern-icon-dark.png). The Lectern entry below is kept for reference only.
+
+- **Lectern** (archived, not on site) — trylectern.com — The offsite content engine for AI visibility, built at the intersection of media relationships and AI agents. Helps brands, agencies, and platforms show up where AI is looking. Tyler is Co-founder. Logo: lectern-icon-dark.png (white starburst on dark background).
 - **Presscart** — presscart.com — A high-trust media marketplace that empowers elite publications and independent journalists to generate revenue by offering paid media opportunities to brands, agencies, and individuals. Tyler is a Partner. Logo: presscart-icon.png (stylized P, white on dark rounded rect).
 - **Key positioning:** The companies are NOT just software — they're relationship engines. Lectern is the AI-native partner (plugs into agents, works with bigger brands). Presscart is the more traditional marketplace (where publishers/journalists earn revenue, where less AI-native buyers spend). Both serve the vision of a frictionless, agent-to-agent future in communications technology.
 
@@ -67,14 +68,12 @@ tylergiroud.com/          (GitHub repo: tylergiroud/tylergiroud.com)
 ├── CLAUDE.md
 ├── favicon-32.png          (blue globe, 32x32)
 ├── apple-touch-icon.png    (blue globe, 180x180)
-├── lectern-icon-dark.png   (white starburst on dark bg)
 ├── presscart-icon.png      (stylized P on dark rounded rect)
 ├── llms.txt                (AI agent-readable site summary)
 └── notes/
     ├── _template.html
     ├── welcome.html
-    ├── the-state-of-ai-search.html
-    └── building-lectern.html
+    └── the-state-of-ai-search.html
 ```
 
 ## Design Decisions & History

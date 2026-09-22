@@ -1,6 +1,6 @@
 # Tyler Giroud
 
-> Partner at Presscart. Cofounder of Lectern. Based in New York City.
+> Partner at Presscart. Based in New York City.
 
 ## About
 
@@ -8,12 +8,9 @@ I spend a lot of time thinking about how AI is changing the way we discover info
 
 I've been building Presscart, a high-trust media marketplace where elite publications and independent journalists generate revenue by selling paid media opportunities to unique individuals, quality brands, and performance marketing agencies.
 
-I'm also working on Lectern, the offsite content engine for AI agents — providing brands, agencies, and AI visibility companies with effortless, programmatic offsite content via our media relationships.
-
 ## Companies
 
 - Presscart (https://presscart.com): A high-trust media marketplace that empowers elite publications and independent journalists to generate revenue by offering paid media opportunities to unique individuals, quality brands, and performance marketing agencies.
-- Lectern (https://trylectern.com): The offsite content engine for AI visibility. Built for brands, agencies, and platforms at the intersection of media relationships and AI agents.
 
 ## Topics I Write About
 
